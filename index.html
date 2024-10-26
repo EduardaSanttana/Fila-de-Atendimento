@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fila de Atendimento</title>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="form">
+                <div class="form">
+                    <h1>Consultório Dr. Pimpolho</h1>
+                    <label for="nome">Nome:</label>
+                        <input type="text" id="nome" required>
+                    <label for="prioridade">Prioritário:</label>
+                        <input type="checkbox" id="prioridade">
+                </div>
+                <div class="button-container"> 
+                    <button type="button" onclick="adicionar()">Incluir</button>
+                    <button type="button" onclick="atendimento()">Atendimento</button>
+                </div>
+            </form>
+            <h4>Paciente em Atendimento:</h4>
+            <p id="atendimento"></p>
+            <h4>Fila:</h4>
+            <p id="fila"></p>
+            <script src="./js/index.js"></script>
+        </div>
+    </body>
+</html>
