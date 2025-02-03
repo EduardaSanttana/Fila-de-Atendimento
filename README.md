@@ -15,4 +15,4 @@ Este projeto foi desenvolvido como parte da matéria de **Construção de Interf
 
 ## Autor
 
-Este projeto foi desenvolvido por **Eduarda Santana**.
+Este projeto foi desenvolvido por **[Eduarda Santana](https://github.com/EduardaSanttana)**.
